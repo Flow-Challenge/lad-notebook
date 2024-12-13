@@ -122,6 +122,7 @@ To execute this project, you should use the `lad-notebook` conda. You have two o
 
 ## Scripts
 1. flow/call_flow.ipynb - Simple Solution calling Flow
+2. call_multiple_prompts.ipynb - Enable the possibility to call multiple prompts as once
 
 
 ## Contributing
