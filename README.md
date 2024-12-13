@@ -8,12 +8,15 @@ It's a jupyter notebook to simplify the daily workflows of data developers by le
 ### Mac
 
 1. **Install Homebrew (if not already installed)**
-
+   
    If you don’t have Homebrew installed, open Terminal and run:
+   
    ```
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
+   
    Once installed, verify it by running:
+   
    ```
    brew --version
    ```
@@ -21,6 +24,7 @@ It's a jupyter notebook to simplify the daily workflows of data developers by le
 2. **Tap the Miniforge Repository**
    
    Miniforge is a lightweight Conda distribution available via Homebrew. Add the repository by running:
+   
    ```
    brew tap homebrew/cask
    brew tap conda-forge/miniforge
@@ -29,12 +33,15 @@ It's a jupyter notebook to simplify the daily workflows of data developers by le
 3. **Install Miniforge**
    
    Install the lightweight Conda distribution (Miniforge) with:
+   
    ```
    brew install --cask miniforge
    ```
 
 4. **Initialize Conda**
+   
    After installation, initialize Conda for your shell. Run:
+   
    ```
    conda init
    ```
@@ -44,7 +51,9 @@ It's a jupyter notebook to simplify the daily workflows of data developers by le
    Close and reopen the Terminal to apply the changes.
 
 6. **Verify Installation**
+   
    Check if Conda is installed correctly by running:
+   
    ```
    conda --version
    ```
